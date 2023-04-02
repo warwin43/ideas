@@ -1,0 +1,161 @@
+            body {
+                font-family: Coiny;
+            }
+            
+            .navbar {
+                background-color: white;
+                margin-bottom: 0;
+                border: #ffffff;
+                border-radius: 0;
+                opacity: 0.8;
+                z-index: 9999;
+            }
+            
+            .bt {
+                background-image: url(../img/bt.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                padding: 1px;
+                margin: 1px;
+                border-radius: 0;
+                color: #000000;
+                transition: all .5s;
+            }
+            
+            .bt a:hover {
+                background-image: url(../img/bt2.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                border-radius: 1;
+                color: #000000;
+                transition: all .5s;
+            }
+            
+            .ini {
+                background-color: #f7d0e8;
+                background-image: url(../img/jumbo.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                padding-right: 5%;
+                padding-left: 5%;
+                padding-top: 20%;
+                padding-bottom: 15%;
+                position: relative;
+                color: #ffffff;
+            }
+            
+            .deli {
+                background-color: #d6c8f1;
+                padding-top: 0px;
+                margin-top: 0px;
+            }
+            
+            .carousel {
+                background-color: #d6c8f1;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .rece {
+                background-color: #f5edbe;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .rece_img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            
+            .r {
+                background-color: white;
+                opacity: 0.8;
+                align-content: stretch;
+                padding: 2PX;
+            }
+            
+            .r1 {
+                background-image: url(../img/galletas.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: sticky;
+                padding: 5%;
+            }
+            
+            .r2 {
+                background-image: url(../img/dulces.png);
+                background-repeat: no-repeat;
+                background-attachment: sticky;
+                padding: 5%;
+            }
+            
+            .r3 {
+                background-image: url(../img/torta.png);
+                background-repeat: no-repeat;
+                background-attachment: sticky;
+                padding: 5%;
+            }
+            
+            .rece_ver {
+                text-align: center;
+            }
+            
+            .rece_lista {
+                list-style-type: none;
+            }
+            
+            footer {
+                background-color: #b37a77;
+                padding: 25px;
+            }
+            
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 2px 2px 5px #000000;
+            }
+            
+            .llamar {
+                background-image: url(../img/contacto.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                padding-left: 5%;
+                padding-right: 10%;
+                padding-top: 20%;
+                padding-bottom: 20%;
+                position: relative;
+                color: #000000;
+            }
+            
+            .btn {
+                background-color: #f5edbe;
+                display: inline-block;
+                width: 200px;
+                padding: 8px;
+                color: rgb(73, 19, 160);
+                border: 2px solid #f5edbe;
+                text-align: center;
+                outline: none;
+                text-decoration: none;
+                transition: background-color 0.2s ease-out, color 0.2s ease-out;
+            }
+            
+            .btn:hover,
+            .btn:active {
+                background-color: #fff;
+                color: #000;
+                transition: background-color 0.3s ease-in, color 0.3s ease-in;
+            }
+            
+            @media (max-width: 768px) {
+                /* For mobile phones: */
+                .ini {
+                    background-image: none;
+                    background-color: #f5edbe;
+                }
+            }
