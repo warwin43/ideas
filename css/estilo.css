@@ -121,13 +121,13 @@
             
             .llamar {
                 background-image: url(../img/contacto.jpg);
-                background-size: cover;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 background-attachment: scroll;
                 padding-left: 5%;
                 padding-right: 10%;
-                padding-top: 20%;
-                padding-bottom: 20%;
+                padding-top: 5%;
+                padding-bottom: 5%;
                 position: relative;
                 color: #000000;
             }
