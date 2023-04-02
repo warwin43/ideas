@@ -120,8 +120,8 @@
             }
             
             .llamar {
-                background-image: url(../img/contacto.jpg);
-                background-size: 100%;
+                background-image: url(../img/dulce.png);
+                background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: scroll;
                 padding-left: 5%;
